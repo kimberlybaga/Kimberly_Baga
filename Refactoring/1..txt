@@ -1,0 +1,23 @@
+class Rectangle{
+public int $height;
+public int $width;
+public int $depth;
+public int $area;
+public int $volume;
+
+public function setValue(string $name, int $value){
+if ($name -> 'height') {
+return $this->height ($value);
+}
+if($name-> 'width'){
+return $this->width ($value);
+}
+if($name->'depth'){
+return $this->depth ($value);
+}
+}
+public function setProperties(){
+area = $this->height(width);
+volume =$this->height*width(depth);
+}
+}
